@@ -1,0 +1,246 @@
+object frmCadastroUsuario: TfrmCadastroUsuario
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'SISCORP S.A'
+  ClientHeight = 361
+  ClientWidth = 884
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 80
+    Width = 13
+    Height = 19
+    Caption = 'id'
+    FocusControl = DBEdit1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 7
+    Top = 126
+    Width = 40
+    Height = 19
+    Caption = 'nome'
+    FocusControl = DBEdit2
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 7
+    Top = 187
+    Width = 35
+    Height = 19
+    Caption = 'login'
+    FocusControl = DBEdit3
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 7
+    Top = 239
+    Width = 41
+    Height = 19
+    Caption = 'senha'
+    FocusControl = DBEdit4
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 7
+    Top = 288
+    Width = 33
+    Height = 19
+    Caption = 'nivel'
+    FocusControl = DBEdit5
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Splitter1: TSplitter
+    Left = 260
+    Top = -31
+    Width = 19
+    Height = 400
+    Align = alNone
+    Color = clMaroon
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Top = 8
+    Width = 206
+    Height = 39
+    Caption = 'SISCORP S.A'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -32
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object DBEdit1: TDBEdit
+    Left = 45
+    Top = 80
+    Width = 22
+    Height = 24
+    AutoSize = False
+    DataField = 'id'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 53
+    Top = 126
+    Width = 200
+    Height = 24
+    AutoSize = False
+    DataField = 'nome'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 54
+    Top = 187
+    Width = 200
+    Height = 24
+    AutoSize = False
+    DataField = 'login'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 54
+    Top = 239
+    Width = 200
+    Height = 24
+    AutoSize = False
+    DataField = 'senha'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 46
+    Top = 290
+    Width = 21
+    Height = 24
+    AutoSize = False
+    DataField = 'nivel'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 388
+    Top = 321
+    Width = 410
+    Height = 32
+    TabOrder = 5
+  end
+  object DBGrid1: TDBGrid
+    Left = 388
+    Top = 72
+    Width = 416
+    Height = 209
+    DataSource = DataSource1
+    TabOrder = 6
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'id'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'nome'
+        Width = 108
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'login'
+        Width = 76
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'senha'
+        Width = 103
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'nivel'
+        Width = 28
+        Visible = True
+      end>
+  end
+  object DataSource1: TDataSource
+    DataSet = DM.tbUsuarios
+    Left = 848
+  end
+end

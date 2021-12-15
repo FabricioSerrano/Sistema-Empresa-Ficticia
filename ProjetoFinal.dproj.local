@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/08 08:02:32.000.492,=C:\Users\serra\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/17 10:40:32.000.923,=C:\Users\serra\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 08:19:31.000.129,=C:\Users\serra\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 08:20:07.000.809,C:\Users\serra\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uSplash.pas</Transaction>
+    <Transaction>2021/12/14 08:20:07.000.809,C:\Users\serra\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uSplash.dfm</Transaction>
+    <Transaction>2021/12/14 08:20:17.000.962,C:\Users\serra\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\ProjetoFinal.dproj</Transaction>
+    <Transaction>2021/12/14 08:33:00.000.446,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 08:33:43.000.110,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uLogin.dfm</Transaction>
+    <Transaction>2021/12/14 08:33:43.000.110,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uLogin.pas</Transaction>
+    <Transaction>2021/12/14 08:46:24.000.799,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 08:49:47.000.605,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uDM.dfm</Transaction>
+    <Transaction>2021/12/14 08:49:47.000.605,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uDM.pas</Transaction>
+    <Transaction>2021/12/14 08:57:47.000.621,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 08:59:00.000.497,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uMenu.pas</Transaction>
+    <Transaction>2021/12/14 08:59:00.000.497,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uMenu.dfm</Transaction>
+    <Transaction>2021/12/14 09:12:35.000.529,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Atividade071221\uCalculadora.pas</Transaction>
+    <Transaction>2021/12/14 09:12:55.000.564,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Atividade071221\uCalculadora.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCalculadora.pas</Transaction>
+    <Transaction>2021/12/14 09:12:55.000.564,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Atividade071221\uCalculadora.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCalculadora.dfm</Transaction>
+    <Transaction>2021/12/14 09:15:06.000.318,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Validador de CPF\uValidador.pas</Transaction>
+    <Transaction>2021/12/14 09:15:19.000.008,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Validador de CPF\uValidador.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uValidador.pas</Transaction>
+    <Transaction>2021/12/14 09:15:19.000.008,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Validador de CPF\uValidador.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uValidador.dfm</Transaction>
+    <Transaction>2021/12/14 09:33:05.000.807,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 09:35:15.000.511,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCadastroUsuario.dfm</Transaction>
+    <Transaction>2021/12/14 09:35:15.000.511,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCadastroUsuario.pas</Transaction>
+    <Transaction>2021/12/14 09:50:33.000.701,=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 09:51:41.000.328,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.dfm=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCadastroClientes.dfm</Transaction>
+    <Transaction>2021/12/14 09:51:41.000.328,F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\Unit1.pas=F:\Fabrício\1-Acadêmico\2-NeoSyx Treinamento\7-Delphi\Projetos\Trabalho Final\uCadastroClientes.pas</Transaction>
+  </Transactions>
+</BorlandProject>

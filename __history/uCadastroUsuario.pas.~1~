@@ -1,0 +1,31 @@
+unit uCadastroUsuario;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uMenu;
+
+type
+  TfrmCadastroUsuario = class(TForm)
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadastroUsuario: TfrmCadastroUsuario;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCadastroUsuario.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+  frmMenu.show;
+end;
+
+end.

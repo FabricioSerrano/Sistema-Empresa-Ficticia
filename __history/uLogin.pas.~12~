@@ -1,0 +1,54 @@
+unit uLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, uDM, uMenu;
+
+type
+  TfrmLogin = class(TForm)
+    edtLogin: TEdit;
+    edtSenha: TEdit;
+    lbnLogin: TLabel;
+    lbnSenha: TLabel;
+    btnLogin: TButton;
+    btnSair: TButton;
+    lbnLimparLogin: TLabel;
+    lbnLimparSenha: TLabel;
+    Splitter1: TSplitter;
+    Label1: TLabel;
+    procedure btnSairClick(Sender: TObject);
+    procedure lbnLimparSenhaClick(Sender: TObject);
+    procedure lbnLimparLoginClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmLogin: TfrmLogin;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TfrmLogin.btnSairClick(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+procedure TfrmLogin.lbnLimparLoginClick(Sender: TObject);
+begin
+  edtLogin.Clear;
+end;
+
+procedure TfrmLogin.lbnLimparSenhaClick(Sender: TObject);
+begin
+  edtSenha.Clear;
+end;
+
+end.
