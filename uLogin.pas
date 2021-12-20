@@ -46,8 +46,8 @@ begin
 
   if DM.ADOQuery1.RecordCount > 0 then
     begin
-      frmMenu.Show;
-      frmLogin.Visible := False;
+      frmMenu.Visible := True;
+      frmLogin.visible := False;
     end
     else
       begin

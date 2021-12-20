@@ -25,8 +25,7 @@ type
     lbnNivel: TLabel;
     lbnHora: TLabel;
     Timer1: TTimer;
-    btnVoltar: TBitBtn;
-    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    btnVoltarLogin: TBitBtn;
     procedure SairClick(Sender: TObject);
     procedure BlocoNotasClick(Sender: TObject);
     procedure CalculadoraClick(Sender: TObject);
@@ -36,6 +35,7 @@ type
     procedure ClientesClick(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure btnVoltarClick(Sender: TObject);
+    procedure btnVoltarLoginClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -51,21 +51,26 @@ implementation
 
 uses uLogin, ucadastroUsuario, uCadastroClientes;
 
-procedure TfrmMenu.btnVoltarClick(Sender: TObject);
-begin
-  frmMenu.Visible := false;
-  frmLogin.Visible := true;
-  frmLogin.Show;
-  frmLogin.edtSenha.clear;
-  frmLogin.edtlogin.clear;
-end;
-
 procedure TfrmMenu.BlocoNotasClick(Sender: TObject);
 begin
   WinExec('notepad.exe', sw_shownormal);
 end;
 
 
+
+procedure TfrmMenu.btnVoltarClick(Sender: TObject);
+begin
+  frmMenu.Visible := False;
+  frmLogin.Visible := True;
+end;
+
+procedure TfrmMenu.btnVoltarLoginClick(Sender: TObject);
+begin
+  frmLogin.Visible := True;
+  frmMenu.Visible := False;
+  frmLogin.edtLogin.Clear;
+  frmLogin.edtSenha.Clear;
+end;
 
 procedure TfrmMenu.CalculadoraClick(Sender: TObject);
 begin
@@ -75,24 +80,19 @@ end;
 procedure TfrmMenu.ClientesClick(Sender: TObject);
 begin
   frmCadastroClientes.show;
+  frmMenu.Visible := False;
 end;
 
 procedure TfrmMenu.ValidadorClick(Sender: TObject);
 begin
   frmCpfValidador.show;
 end;
-
-procedure TfrmMenu.FormClose(Sender: TObject; var Action: TCloseAction);
-begin
-  Application.Terminate;
-end;
-
 procedure TfrmMenu.FormShow(Sender: TObject);
 begin
   if (DM.ADOQuery1Nivel.Value = 0) then
     begin
       lbnNivel.Caption := 'Operacional';
-      Usuarios.Enabled := false;
+      Usuarios.Visible := false;
     end
     else
       begin

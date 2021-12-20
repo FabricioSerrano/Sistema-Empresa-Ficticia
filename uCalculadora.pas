@@ -48,7 +48,8 @@ type
     procedure btnVirgClick(Sender: TObject);
     procedure btnIgualClick(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
-
+    procedure FormShow(Sender: TObject);
+   
 
 
 
@@ -230,56 +231,64 @@ end;
 procedure TfrmCalculadora.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
-  if Key = VK_NUMPAD1 then
+
+if Key = VK_NUMPAD1 then
    btnUm.Click;
 
-   if Key = VK_NUMPAD2 then
-   btnDois.click;
+if Key = VK_NUMPAD2 then
+   btnDois.Click;
 
-   if Key = VK_NUMPAD3 then
-   btnTres.click;
+if Key = VK_NUMPAD3 then
+   btnTres.Click;
 
-   if Key = VK_NUMPAD4 then
-   btnQuatro.click;
+if Key = VK_NUMPAD4 then
+   btnQuatro.Click;
 
-   if Key = VK_NUMPAD5 then
-   btnCinco.click;
+if Key = VK_NUMPAD5 then
+   btnCinco.Click;
 
-   if Key = VK_NUMPAD6 then
-   btnSeis.click;
+if Key = VK_NUMPAD6 then
+   btnSeis.Click;
 
-   if Key = VK_NUMPAD7 then
-   btnSete.click;
+if Key = VK_NUMPAD7 then
+   btnSete.Click;
 
-   if Key = VK_NUMPAD8 then
-   btnOito.click;
+if Key = VK_NUMPAD8 then
+   btnOito.Click;
 
-   if Key = VK_NUMPAD9 then
-   btnNove.click;
+if Key = VK_NUMPAD9 then
+   btnNove.Click;
 
-   if Key = VK_NUMPAD0 then
-   btnZero.click;
+if Key = VK_NUMPAD0 then
+   btnZero.Click;
 
-   if Key = VK_ADD then
-   btnSoma.click;
+if Key = VK_ADD then
+   btnSoma.Click;
 
-   if Key = VK_SUBTRACT then
-   btnSub.click;
+if Key = VK_SUBTRACT then
+   btnSub.Click;
 
-   if Key = VK_MULTIPLY then
-   btnMulti.click;
+if Key = VK_MULTIPLY then
+   btnMulti.Click;
 
-   if Key = VK_SUBTRACT then
-   btnDiv.click;
+if Key = VK_SUBTRACT then
+   btnDiv.Click;
 
-   if Key = VK_DELETE then
-   btnC.click;
+if Key = VK_DELETE then
+   btnC.Click;
 
-   if Key = VK_RETURN then
-   btnIgual.click;
+if Key = VK_RETURN then
+   btnIgual.Click;
 
-   if Key = VK_DECIMAL then
-   btnVirg.click;
+if Key = VK_DECIMAL then
+   btnVirg.Click;
+end;
+
+
+
+procedure TfrmCalculadora.FormShow(Sender: TObject);
+begin
+frmCalculadora.SetFocus;
 end;
 
 end.
